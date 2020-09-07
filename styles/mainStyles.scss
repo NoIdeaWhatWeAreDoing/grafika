@@ -1,0 +1,26 @@
+// color pallets
+$white: #f6f6f6;
+$lightOrange: #ffbb91;
+$orange: #ff8e6e;
+$dark: #515070;
+
+//styles
+@import './sideNav.scss';
+@import './content.scss';
+// Main styles
+*{
+    margin: 0;
+    padding:0;
+}
+html,body{
+    width: 100vh;
+    height: 100vh;
+    font-family: 'Roboto';
+}
+body {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #232629;
+}
+
+//TODO naprawić aby nie było delayu przy rozszrezaniu etc

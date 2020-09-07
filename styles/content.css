@@ -1,0 +1,33 @@
+/* MAIN PAGE */
+.page-wrap {
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  background-color: #ffbb91;
+  width: 100vw;
+  display: inline-block;
+}
+
+#menu-switch:checked ~ .page-wrap {
+  margin-left: 300px;
+}
+
+/* CONTENT CONTAINER */
+.container {
+  display: inline-block;
+}
+
+.container .blog {
+  background-color: white;
+}
+
+p {
+  text-decoration: line-through;
+}
+
+a {
+  font-size: .5em;
+}
+/*# sourceMappingURL=content.css.map */
