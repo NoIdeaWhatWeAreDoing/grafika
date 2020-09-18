@@ -1,0 +1,66 @@
+ .author {
+     color: #bdccd5;
+     font-size: 20px;
+     text-align: center;
+     margin-bottom: 2%;
+ }
+ 
+ .paragraphs {
+     line-height: 1.5rem;
+     padding: 2.0rem;
+     font-size: 20px;
+     text-align: justify;
+ }
+ 
+ //
+ .paragraphs_autors {
+     line-height: 1.5rem;
+     padding: 2.0rem;
+     font-size: 20px;
+     text-align: justify;
+ }
+ 
+ .paragraphs p,
+ .paragraphs_autors p {
+     text-indent: 1.5em;
+ }
+ 
+ ul {
+     list-style-type: decimal;
+     margin: revert;
+     padding-left: inherit;
+ }
+ 
+ ul ol li {
+     margin-left: 2%;
+ }
+ 
+ ul ol ol li {
+     margin-left: 2%;
+ }
+ 
+ a:link {
+     color: #506d7e;
+ }
+ 
+ a:visited {
+     color: #506d7e;
+ }
+ 
+ a:hover {
+     color: #4682b4;
+ }
+ 
+ .f_img {
+     float: right;
+     margin: 4%;
+ }
+ 
+ .f_img_2 {
+     float: left;
+     margin: 4%;
+ }
+ 
+ h2 {
+     text-indent: 1em;
+ }

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/mainStyles.css">
+    <title>Grafika</title>
+</head>
+
+<body>
+    <input id="menu-switch" type="checkbox" />
+    <nav id="menu" role="navigation">
+        <div class="brand"></div>
+        <ul>
+            <li><a href="../index.html">INFORMACJĘ O ZESPOLE</a></li>
+            <li><a href="../arcticle/art_postmodernizm.html">POSTMODERNIZM</a></li>
+            <li><a href="../arcticle/art_komunikacja_wizualna.html">Komunikacja wizualna</a></li>
+            <li><a href="../arcticle/art_id_wiz_og_miejski.html">Ogród Miejski</a></li>
+            <li><a href="../arcticle/art_cmetarz.html">Stary Cmentarz</a></li>
+            <li><a href="../arcticle/art_pci.html">PCI</a></li>
+            <li><a href="../arcticle/art_kom_wiz_mu.html">Muzea</a></li>
+            <li><a href="../arcticle/art_galer_rze.html">Galeria Rzeszów</a></li>
+            <li><a href="../arcticle/art_wsiz.html">WSIiZ</a></li>
+            <li><a href="../arcticle/art_medyk.html">MEDYK</a></li>
+            <li><a href="../arcticle/art_urz_woj.html">Urząd Wojewódzki</a></li>
+            <li><a href="../arcticle/art_przestrzen_miejska.html">PRZESTRZEŃ MIEJSKA</a></li>
+
+        </ul>
+    </nav>
+    <div id="wrap" class="page-wrap">
+        <label for="menu-switch" id="menu-toggle"></label>
+        <div class="container-fluid" role="main">
+            <div class="blog">
+                <h1>Podkarpackie Centrum Innowacji - analiza komunikacji wizualnej instytucji</h1>
+                <p class="author"> Nataliia Filimoniuk i Ewa Kuźniar | 22.06.2020 </p>
+                <hr>
+                <div class="paragraphs">
+                    <h2>Spis Treści:</h2>
+                    <p>
+                        <ul>
+                            <li> <a href="#wprowadznie"> Wprowadzenie</a></li>
+                            <li> <a href="#2_opis"> Opis miejsca badań, charakterystyka i opis historyczny</a></li>
+                            <ol>
+                                <li value="2">1. <a href="#2.1">Obecne przeznaczenie miejsca badań</a></li>
+                                <li value="2">2. <a href="#2.2">Strategia (opis misji instytucji, cele)</a></li>
+                            </ol>
+
+                            <li><a href="#opis_met">Opis metodologii badań i analiza przekazu</a></li>
+                            <li><a href="#syst_id">System identyfikacji wizualnej. Analiza dobrych i złych zastosowań</a></li>
+                            <ol>
+                                <li value="4">1. <a href="#4.1">Elementy identyfikacji wizualnej - logo (symbolika, historia, analiza logotypu oraz
+                                    sygnetu, spójność - ikony i piktogramy)</a></li>
+                                <li value="4">2. <a href="#4.2">Typografia (użyte fonty)</a></li>
+                                <li value="4">3. <a href="#4.3">Kolorystyka systemu identyfikacji wizualnej (użyte kolory)</a></li>
+                                <li value="4">4. <a href="#4.4">Kreatywność i innowacyjność</a></li>
+                            </ol>
+
+                            <li><a href="#anali_sys_zew">Analiza systemu identyfikacji na zewnątrz</a></li>
+                            <li><a href="#anali_sys_wew">Analiza systemu identyfikacji wewnątrz</a></li>
+                            <li><a href="#anali_sys_int">Analiza komunikacji wizualnej w internecie - strona internetowa</a></li>
+                            <ol>
+                                <li value="7">1. <a href="#7.1">Strategia strony - do kogo jest skierowana</a></li>
+                                <li value="7">2. <a href="#7.1">Przekaz (jakie treści umieszczane są na stronie, dostępność w innych językach)</a></li>
+                                <li value="7">3. <a href="#7.3">Elementy strony (Kolorystyka strony, Obrazy - zdjęcia/fotografie na stronie, użyta
+                                    typografia, spójność z identyfikacją)</a></li>
+                                <li value="7">4. <a href="#7.4">Intuicyjność strony i pozycjonowanie</a></li>
+                                <li value="7">5. <a href="#7.5">Interakcja z użytkownikami - profile w mediach społecznościowych</a></li>
+                                <li value="7">6. <a href="#7.6">Analiza strony internetowej pod kątem skuteczności witryny (Analiza UX)</a></li>
+                            </ol>
+                            <li> <a href="#dost">Dostępność</a></li>
+                            <li> <a href="#bad">Badania terenoweń</a></li>
+
+                            <li> <a href="#opi_na_tem">Omówienie wyników badań</a></li>
+                            <ol>
+                                <li value="10">1. <a href="#10.1">Wnioski</a></li>
+                                <li value="10">2. <a href="#10.2">Co należy poprawić</a></li>
+                            </ol>
+                            <li><a href="#biblio">Bibliografia</a></li>
+
+                        </ul>
+                    </p>
+                    <hr>
+                    <h2><a name="wprowadznie">1.	Wprowadzenie</a></h2>
+                    <hr>
+                    <p>Celem naszego projektu jest dogłębna analiza wizualna Podkarpackiego Centrum Innowacji. W ramach niniejszego dokumentu zaprezentujemy wyniki obserwacji jakiej dokonałyśmy. Badanie obejmuje najważniejsze elementy, które w połączeniu
+                        składają się na komunikację wizualną instytucji. W ten sposób analiza obejmuje wyniki obserwacji PCI zarówno w kontekście jej dostosowania do potrzeb jej użytkowników, czyli tego, co znajduje się w budynku, jakie posiada funkcjonalności,
+                        ale także komunikacji instytucji za pomocą Internetu i platform społecznościowych - wykorzystywanej typografii, kolorystyki itp. W niniejszym projekcie można również znaleźć charakterystykę przeznaczenia placówki oraz jej opis
+                        historyczny. Wszystkie działania podjęte w celu przeprowadzenia niniejszej analizy mają doprowadzić nas do wniosków i przygotowania konkretnych rozwiązań, które pomogłyby instytucji prowadzić skuteczniejszą komunikację wizualną.</p>
+                    <hr>
+                    <h2><a name="2_opis">2.	Opis miejsca badań, charakterystyka i opis historyczny </a></h2>
+                    <hr>
+                    <p>Podkarpackie Centrum Innowacji jest stosunkowo nową instytucją. Została stworzona w październiku 2017 roku. Jest formą projektu realizowanego przez Urząd Marszałkowski Województwa Podkarpackiego. Jego historia sięga jedynie do 2017
+                        roku, a celem instytucji od początku jej funkcjonowania jest pomoc młodym osobom, studentom w realizacji jej projektów naukowych, a także samorozwojowych. PCI współpracuje ze wszystkimi największymi uczelniami w Rzeszowie. Są to:
+                        Politechnika Podkarpacka, Uniwersytet Rzeszowski, Wyższa Szkoła Informatyki i Zarządzania z siedzibą w Rzeszowie oraz Wyższa Szkoła Prawa i Administracji. Instytucja funkcjonuje dzięki dofinansowaniu w ramach projektu unijnego
+                        - Europejski Fundusz Rozwoju Regionalnego.</p>
+
+                    <h3><a name="2.1">2.1  Obecne przeznaczenie miejsca badań </a></h3>
+                    <hr>
+                    <p>Podkarpackie Centrum Innowacji ma wspierać regionalne uczelnie oraz przedsiębiorców, dając szansę na tworzenie i realizację projektów badawczo-rozwojowych. Dlatego ten budynek jest tym miejscem, gdzie studenci mogą realizować swoje
+                        pomysły naukowe i zgłaszać zapotrzebowania techniczne, niezbędne w ich działaniach. Przedstawiciele instytucji współpracują z liderami kół naukowych rzeszowskich uczelni, dzięki czemu KN mogą spotykać się, realizować swoje projekty
+                        oraz wydarzenia w budynki PCI.
+                    </p>
+
+                    <h3><a name="2.2">2.2  Strategia (opis misji instytucji, cele) </a></h3>
+                    <hr>
+                    <p>Projekt Podkarpackiego Centrum Innowacji (PCI) powstał w wyniku współpracy Województwa Podkarpackiego, Komisji Europejskiej oraz Ministerstwa Rozwoju w ramach inicjatywy Catching-up Regions. Przy udziale ekspertów Banku Światowego,
+                        a także Politechniki Rzeszowskiej, Uniwersytetu Rzeszowskiego oraz Wyższej Szkoły Informatyki i Zarządzania w Rzeszowie zdiagnozowano potencjał rozwojowy województwa i wypracowano koncepcję Biura Transferu Technologii (BTT).
+                    </p>
+                    <p>Działalność placówki opiera się na łączeniu nauki z biznesem oraz na rozwijaniu kluczowych umiejętności wśród badaczy i personelu administracyjnego. Znalezienie odpowiedniego źródła finansowania jest trudne, dlatego za priorytetowe
+                        uznaje się wspieranie podkarpackich projektów badawczo-rozwojowych, a także pobudzanie i rozwój kultury przedsiębiorczości wśród studentów.</p>
+                    <p>Komercjalizacja projektów badawczo-rozwojowych oraz ułatwianie kontaktów między uczelniami z regionu a przedsiębiorcami to główny cel Podkarpackiego Centrum Innowacji (PCI) w Rzeszowie.</p>
+
+                    <hr>
+                    <h2><a name="opis_met">3. Opis metodologii badań i analiza przekazu</a></h2>
+                    <hr>
+                    <p>Z powodu pewnych ograniczeń w dostępności budynku PCI, w badaniu została wykorzystana tylko ta informacja, która jest ogólnodostępna. Czyli pod uwagę zostały wzięte portal internetowy instytucji, oraz jej profile w mediach społecznościowych.
+                        Zostały również określone główne wskaźniki analizy, a dokładnie spójność wizualna, spójność przekazu, portal internetowy jako źródło informacji, jako wskaźnik strategii i kierunku rozwoju PCI, oraz inne materiały, publikowane na
+                        jej platformach, ale nie przez nich tworzone.</p>
+                    <hr>
+                    <h2><a name="syst_id">4. System identyfikacji wizualnej. Analiza dobrych i złych zastosowań </a></h2>
+                    <hr>
+                    <h3><a name="4.1">4.1  Elementy identyfikacji wizualnej - logo (symbolika, historia, analiza logotypu oraz
+                        sygnetu, spójność - ikony i piktogramy) </a></h3>
+                    <hr>
+                    <p>Podkarpackie Centrum Innowacji to dość młoda instytucja, która uznała za potrzebne wykorzystanie wszystkich możliwych elementów identyfikacji. Widzimy, że logo powstało w zgodzie z koncepcją minimalizmu dzięki czemu łatwo jest zapamiętać
+                        jego wygląd. Kształt loga przypomina żarówkę (pomysły) oraz strzałki (nowoczesne technologie komputerowe). Zgodnie z wcześniej podaną informacja, wiemy, że PCI i Urząd Wojewódzki są mocno ze sobą związane, dlatego PCI postanowiła
+                        wykorzystać tę samą gamę kolorów dla swojej identyfikacji, jaką ma Województwo Podkarpackie.</p>
+                    <div class="d-flex justify-content-center">
+                        <figure class="figure">
+                            <img src="img/art4/art4_1.jpg" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-right"><b>Rys. 1 Logo Województwa Podkarpackiego</b></figcaption>
+                            <figcaption class="figure-caption text-right">Źródło:<a href="https://www.podkarpackie.pl/" target="_blank"> https://www.podkarpackie.pl/</a>, z dnia: 31.05.2020 </figcaption>
+                        </figure>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <figure class="figure">
+                            <img src="img/art4/art4_2.jpg" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-right"><b>Rys. 2 Logo PCI</b></figcaption>
+                            <figcaption class="figure-caption text-right">Źródło:<a href="https://pcinn.org//" target="_blank"> https://pcinn.org/</a>, z dnia: 31.05.2020 </figcaption>
+                        </figure>
+                    </div>
+                    <h3><a name="4.2">4.2 Typografia (użyte fonty) </a></h3>
+                    <hr>
+                    <p>W kontekście użytej typografii zauważyć można czcionkę Encode Sans, która jest fontem darmowym, łatwym do znalezienia w Internecie. Rodzina czcionek Encode dzięki szerokiej gamie ciężarów i szerokości jest gotowa na wszelkiego rodzaju
+                        wyzwania typograficzne. Zaprojektowany przez Pablo Impallari i Andres Torresi, Encode Sans obejmuje wszystkie 104 języki łacińskie.</p>
+                    <h3><a name="4.3">4.3 Kolorystyka systemu identyfikacji wizualnej (użyte kolory) </a></h3>
+                    <hr>
+                    <p>Kolory zostały dobrane w zgodzie z identyfikacją głównego partnera i inicjatora założenia PCI - Urzędu Województwa Podkarpackiego. Są to zielony i niebieski. Kody kolorów: niebieski - #026ea8, granatowy - #091024, zielony - #528d37.
+                        Warto zaznaczyć, że te same kolory są wykorzystywane zarówno na stronie internetowej, jak i w materiałach promocyjnych oraz na zewnątrz i wewnątrz budynku PCI.</p>
+                    <h3><a name="4.4">4.4 Kreatywność i innowacyjność </a></h3>
+                    <hr>
+                    <p>Mimo że PCI jest młodą instytucją to należy zauważyć, że jej rozwój odbywa się zgodnie z panującymi trendami, zarówno w kontekście technologii, ale również przeznaczenia budynku. Każde pomieszczenie PCI wyposażone jest w specjalistyczne
+                        sprzęty, takie jak m.in. drukarki 3D, które pozwolą przedstawicielom różnych kół naukowych 6 na realizację własnych pomysłów. Co więcej, w budynku znajdują się specjalne sale wyposażone w komfortowe “pufy”, biurka, a także duże
+                        stoły do prowadzenia burzy mózgów i planowania kolejnych realizacji.</p>
+                    <p>Warto zwrócić uwagę na architekturę wnętrza budynku. Wykorzystana w nim kolorystyka, a także sprzęt idealnie wpasowują się w przeznaczenie pomieszczeń - dla młodych osób.</p>
+                    <hr>
+                    <h2><a name="anali_sys_zew">5.	Analiza systemu identyfikacji na zewnątrz </a></h2>
+                    <hr>
+                    <p>Badania terenowe nie są możliwe do zrealizowania w wyniku pandemii koronawirusa.</p>
+                    <hr>
+                    <h2><a name="anali_sys_wew">6.	Analiza systemu identyfikacji wewnątrz </a></h2>
+                    <hr>
+                    <p>Badania terenowe nie są możliwe do zrealizowania w wyniku pandemii koronawirusa.</p>
+                    <hr>
+                    <h2><a name="anali_sys_int">7.	Analiza komunikacji wizualnej w internecie - strona internetowa</a></h2>
+                    <hr>
+                    <p>Badania terenowe nie są możliwe do zrealizowania w wyniku pandemii koronawirusa.</p>
+                    <h3><a name="7.1">7.1 Strategia strony - do kogo jest skierowana </a></h3>
+                    <hr>
+                    <p>Strona internetowa jest dopasowana do wszystkich zainteresowanych odbiorców. Możemy znaleźć tu informacje zarówno dla studentów, którzy mogą korzystać z budynku, jaki i dla partnerów, a nawet osób, poszukujących pracy.</p>
+                    <h3><a name="7.2">7.2 Przekaz (jakie treści umieszczane są na stronie, dostępność w innych językach)</a></h3>
+                    <hr>
+                    <p>Strona nie jest dopasowana do osób niedowidzących i daltonistów. Jest to zdecydowanie negatywny aspekt strony internetowej, ponieważ w ten sposób jej administratorzy doprowadzają do izolacji osoby, które mogą mieć problemy ze wzrokiem.</p>
+                    <p>Kolejna rzecz, to brak dostępności w innych językach. Biorąc pod uwagę, że PCI ma być miejscem przyjaznym do spotkań i rozwijania swoich zainteresowań naukowych przez studentów, należy wziąć pod uwagę, że w mieście jest dużo studentów
+                        obcokrajowców. Dlatego też strona powinna występować przynajmniej w wersji po angielsku.</p>
+                    <p>Kolejne elementy strony wyglądają obiecująco. Publikowane treści dotyczą działalności PCI - organizowanych projektów lub wydarzeń. Na stronie podane są także wszelkie niezbędne dane kontaktowe co z pewnością ułatwia komunikację osobom
+                        zainteresowanym. Każdy może też znaleźć informacje nt. PCI (zakładki “o projekcie” oraz “media o nas”). Administratorzy strony publikują również oferty pracy oraz zapytania 7 ofertowe i przetargi. Co więcej, znaleźć można na niej
+                        przekierowania do mediów społecznościowych: Facebooka, Instagrama, Twittera, YouTube i LinkedIn.</p>
+                    <h3><a name="7.3">7.3 Elementy strony (Kolorystyka strony, Obrazy - zdjęcia/fotografie na stronie, użyta
+                        typografia, spójność z identyfikacją)</a></h3>
+                    <hr>
+                    <p>PCI wywodzi się i jest wspierana przez Urząd Marszałkowski, dlatego też kolorystyka strony nawiązuje do barw wykorzystywanych przez województwo podkarpackie. Warto zaznaczyć, że zdjęcia na stronie są dobrej jakości, zrobione przez
+                        PCI i pokazujące działania instytucji na co dzień.</p>
+                    <h3><a name="7.4">7.4 Intuicyjność strony i pozycjonowanie</a></h3>
+                    <hr>
+                    <p>Strona internetowa Podkarpackiego Centrum Innowacji, <a href="http://www.pcinn.org/" target="_blank">http://www.pcinn.org/</a> koncentruje się wokół najważniejszych funkcjonalności. Strona jest intuicyjna, bardzo łatwo można się po
+                        niej przemieszczać, a odbiorca nie spotyka po drodze żadnych problemów. Po analizie wyszukiwania w Google, można założyć, że strona nie zawiera Google AdWords, a jej pozycjonowanie jest organiczne. Według Autorek niniejszego projektu
+                        jest to zrozumiałe. Wpisując “PCI” lub “Podkarpackie Centrum Innowacji” w wyszukiwarce strona instytucji pojawia się jako pierwsza. Zatem, inwestowanie w Google Ads wydaje się bezzasadne.</p>
+                    <h3><a name="7.5">7.5 Interakcja z użytkownikami - profile w mediach społecznościowych</a></h3>
+                    <hr>
+                    <p>Posty w mediach społecznościowych pojawiają się dosyć często, praktycznie codziennie. Mimo to administratorzy nie wchodzą w interakcje z użytkownikami w komentarzach. Pojawiają się posty, w których odbiorcy zadają konkretne pytania,
+                        jednak nie uzyskują odpowiedzi. Z drugiej jednak strony treści postów zachęcają do bezpośredniej komunikacji - zadawane są pytania, np. “A wy jak spędziliście środowe popołudnie?”.</p>
+                    <p>Jednak z plusów widzimy spójność kolorystyczną, aktywne działania online’owe - webinaria, spotkania online, wykłady otwarte.</p>
+                    <h3><a name="7.6">7.6 Analiza strony internetowej pod kątem skuteczności witryny (Analiza UX)</a></h3>
+                    <hr>
+                    <p>Odbiorca bardzo szybko ma możliwość znaleźć najbardziej istotne informacje: kontakt, aktualności, projekty, oferty pracy. Chcąc być na bieżąco użytkownik ma również możliwość zapisania się do newslettera, co dodatkowo wpływa na wizerunek
+                        i komunikację organizacji. Co więcej, strona umożliwia łatwe przejście do mediów społecznościowych za 8 pomocą ikonek portali, które przenoszą bezpośrednio na platformy. Warto jednak dodać, że strona nie jest dostosowana dla osób
+                        niedowidzących lub daltonistów – nie użyto w niej funkcji zmiany kontrastu kolorów.</p>
+                    <hr>
+                    <h2><a name="dost">8.	Dostępność </a></h2>
+                    <hr>
+                    <p>Badania terenowe nie są możliwe do zrealizowania w wyniku pandemii koronawirusa.</p>
+                    <hr>
+                    <h2><a name="bad">9.	Badania terenowe </a></h2>
+                    <hr>
+                    <p>Badania terenowe nie są możliwe do zrealizowania w wyniku pandemii koronawirusa.</p>
+                    <hr>
+                    <h2><a name="opi_na_tem">10. Omówienie wyników badań</a></h2>
+                    <hr>
+                    <h3><a name="10.1">10.1 Wnioski</a></h3>
+                    <hr>
+                    <p>Podkarpackie Centrum Innowacji jest stosunkowo młodą instytucją. Ich komunikacja opiera się głównie na nowych technologiach i współczesnych trendach. Są aktywni zarówno w mediach społecznościowych jak i na własnej stronie internetowej.
+                        Mimo to działania promocyjne instytucji są zawężone, głównie opierają się na wsparciu rzeszowskich uczelni i Urzędu Marszałkowskiego, z którego wywodzi się instytucja. Trzeba jednak przyznać, że budynek PCI jest spójny z tym, czym
+                        zajmuje się instytucja. Jego nowoczesny i innowacyjny charakter odpowiadają potrzebom studentów z regionu.</p>
+                    <p>W związku z tym, że sytuacja związana z pandemią nie umożliwia przeprowadzenia badań terenowych, należy dodać, że wybrana przez instytucję strategia komunikacji jest skuteczna. Biorąc jednak pod uwagę specyficzną sytuację, która jest
+                        wynikiem koronawirusa, organizacja mogłaby być bardziej zaangażowana w prowadzenie działalności online.</p>
+                    <h3><a name="10.2">10. Co należy poprawić</a></h3>
+                    <hr>
+                    <p>Biorąc pod uwagę powyższą analizę, zdaniem Autorek niniejszego projektu warto rozwinąć działania promocyjne z wykorzystaniem nowych technologii. Taki element podkreśliłby nowoczesność instytucji i byłby dopasowany do wymagań i potrzeb
+                        grupy docelowej. Dlatego proponujemy:</p>
+                    <p>
+                        <ul>
+                            <li>VR Tour: wirtualne wycieczki po budynku PCI pozwolą przybliżyć studentom i osobom zainteresowanym nowymi technologiami funkcjonalności instytucji, jej możliwości i wyposażenie. Byłoby to dobrym pomysłem na promocję “na przyszłość”,
+                                ponieważ z powodu obecnej sytuacji wszystkie laboratoria są zamknięte. Ten pomysł można rozwijać na różne sposoby, dodając opisy zrealizowanych projektów w każdym z laboratoriów jako potwierdzenie skuteczności i pomocniczości
+                                PCI w badaniach studentów.</li> <br>
+                            <li>Aplikacja do rezerwacji wizyt: PCI posiada narzędzie rezerwacji wizyt do konkretnych laboratoriów na swoim fanpage’u na Facebooku, jednak zdaniem Autorek, nie wygląda to zbyt profesjonalnie i nie zgadza się ze strategią nowoczesności
+                                tej instytucji. Dlatego taka aplikacja, w której każdy mógłby się zarejestrować i sprawdzić dostępność każdego pokoju, ułatwiłaby proces umawiania się oraz byłaby użyteczna w celach promocyjnych (zbieranie danych o użytkownikach,
+                                potencjalnie zainteresowanych działalnością PCI). Aplikacja może intensywnie się rozwijać, dodając do niej newsy, newslettery, projekty grywalizacyjne itd. Jest to korzystne narzędzie organizacyjne oraz sposób na budowanie
+                                społeczności według konkretnych zainteresowań.</li><br>
+                            <li>Więcej interakcji z użytkownikami oraz promocja na zewnątrz, aby wybudować własny wizerunek oraz zwiększyć rozpoznawalność wśród mieszkańców Rzeszowa i Podkarpacia.,</li>
+
+                        </ul>
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <figure class="figure">
+                            <img src="img/art4/art4_3.jpg" class="figure-img img-fluid rounded" alt="...">
+                            <figcaption class="figure-caption text-right">Opracowanie własne</figcaption>
+                        </figure>
+                    </div>
+
+
+                    <h2><a name="biblio">11. Bibliografia</a></h2>
+                    <hr>
+                    <p>
+                        <ul>
+
+                            <li> <a href="https://pcinn.org/media-o-nas/wpis?pressId=23" target="_blank ">https://pcinn.org/media-o-nas/wpis?pressId=23 </a>, dostęp: 19.04.2020</li>
+
+                        </ul>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js " integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin=" anonymous "></script>
+        <script src="../scripts.js "></script>
+</body>
+
+</html>
